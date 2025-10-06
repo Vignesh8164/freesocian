@@ -1,5 +1,5 @@
 
-  # insta ai auto
+  # freesocian an app for scheduling your post for instagram.
 
   This is a code bundle for insta ai auto. The original project is available at https://www.figma.com/design/WSyvPhW6U0j72PwKH5nznV/insta-ai-auto.
 
