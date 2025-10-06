@@ -24,13 +24,14 @@ import { toast } from 'sonner@2.0.3';
 
 const INSTAGRAM_CONFIG = {
   // Replace with your actual Instagram Client ID from Facebook Developers
-  CLIENT_ID: 'import.meta.env.17841476222713173', // e.g., '1234567890123456'
+  CLIENT_ID: 'const INSTAGRAM_APP_ID = import.meta.env.VITE_INSTAGRAM_APP_ID;
+', // e.g., '1234567890123456'
   
   // Replace with your actual Instagram Client Secret from Facebook Developers  
-  CLIENT_SECRET: 'import.meta.env.e91eeef95f82a7a9722beb69d4523877', // e.g., 'abcdef1234567890abcdef1234567890'
+  CLIENT_SECRET: 'import.meta.env.VITE_INSTAGRAM_APP_SECRET', // e.g., 'abcdef1234567890abcdef1234567890'
   
   // Replace with your actual redirect URI (must be registered in Facebook Developers)
-  REDIRECT_URI: 'import.meta.env.https://freesocian.me/auth/instagram/callback', // e.g., 'https://yourdomain.com/auth/instagram/callback'
+  REDIRECT_URI: 'import.meta.env.VITE_INSTAGRAM_REDIRECT_URI', // e.g., 'https://yourdomain.com/auth/instagram/callback'
   
   // Instagram OAuth endpoints
   AUTH_URL: 'https://api.instagram.com/oauth/authorize',
